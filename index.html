@@ -6,9 +6,10 @@
     <title>ht.ml</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.28.1/min/vs/editor/editor.main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Reem Kufi Ink', sans-serif;
             margin: 0;
             background-color: #f4f4f4;
             color: #333;
@@ -78,6 +79,31 @@
         .dark-mode iframe {
             background-color: #555;
         }
+
+        .link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .link-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -91,9 +117,8 @@
         <iframe id="preview"></iframe>
     </main>
     <footer>
-        <caption>© 2024 GGsuii99 and 7aimez <caption>© 2024 GGsuii99 and 7aimez <a href="https://github.com/GGsuii99/ht.ml" class="link-button">Visit GitHub Repository</a> </caption>
-
-        
+        <span>© 2024 GGsuii99 and 7aimez</span>
+        <a href="https://github.com/GGsuii99/ht.ml" class="link-button">Visit GitHub Repository</a>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.28.1/min/vs/loader.min.js"></script>
@@ -142,3 +167,4 @@
     </script>
 </body>
 </html>
+
